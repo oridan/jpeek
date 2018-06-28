@@ -165,6 +165,7 @@ public final class MetricsTest {
 
     @Test
     public void testsTarget() throws IOException {
+        
         final Path output = Files.createTempDirectory("");
         new Report(
             new Skeleton(new FakeBase(this.target)).xml(),
